@@ -1,0 +1,4 @@
+Fedora:
+
+iptables -a PREROUTING -t nat -i enp0s3 ip tcp --dport 80 -j REDIRECT --to-port 5000
+

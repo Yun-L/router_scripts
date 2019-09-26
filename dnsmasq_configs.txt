@@ -6,5 +6,6 @@ server=8.8.8.8
 log-queries
 log-dhcp
 
-# include addresses
+# redirect to spoofed web server
 address=/www.stevens.edu/135.22.98.81
+address=/www.google.com/135.22.98.81
